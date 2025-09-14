@@ -5,7 +5,7 @@ class SimpleChatbot {
         this.isTyping = false;
         this.messageCount = 0;
         this.conversationHistory = [];
-        this.apiBaseUrl = 'http://localhost:5000/api';
+        this.apiBaseUrl = 'https://ngrok.com/r/http-request';
         this.ollamaConnected = false;
         
         // Initialize the chatbot
@@ -536,3 +536,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Start the timer
     resetTipTimer();
 });
+
